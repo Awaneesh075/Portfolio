@@ -1,0 +1,17 @@
+{
+  "root": true,
+  "extends": ["next/core-web-vitals", "eslint:recommended"],
+  "plugins": ["tailwindcss"],
+  "rules": {
+    "tailwindcss/classnames-order": "off"
+  },
+  "overrides": [
+    {
+      "files": ["**/*.test.*", "**/__tests__/**"],
+      "env": {
+        "jest": true,
+        "node": true
+      }
+    }
+  ]
+}
