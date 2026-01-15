@@ -18,14 +18,6 @@ export const projects: Project[] = [
     github: "https://github.com/Awaneesh075/Inventory-Management"
   },
   {
-    title: "Google Clone (CI/CD + Todo)",
-    image: "/projects/google-clone.png",
-    description:
-      "Google-inspired UI with CI/CD pipeline and todo functionality.",
-    tech: ["React", "DevOps", "CI/CD"],
-    github: "https://github.com/Awaneesh075/Google-clone"
-  },
-  {
     title: "Weather Web Application",
     image: "/projects/weather.png",
     description:

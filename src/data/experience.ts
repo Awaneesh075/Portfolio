@@ -3,6 +3,7 @@ import type { ExperienceItem } from "@/types";
 export const experience: ExperienceItem[] = [
   {
     company: "Wherehouse.io",
+    companyUrl: "https://wherehouse.io",
     role: "Software / Frontend Developer (Intern)",
     duration: "Jul 2025 – Jan 2026",
     location: "Gurugram, Haryana, India",

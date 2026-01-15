@@ -8,6 +8,7 @@ export interface Project {
 
 export interface ExperienceItem {
   company: string;
+  companyUrl?: string;
   role: string;
   duration: string;
   location?: string;
@@ -19,6 +20,7 @@ export interface Certification {
   title: string;
   issuer: string;
   year: number | string;
+  url?: string;
 }
 
 export interface Skills {
