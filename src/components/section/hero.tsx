@@ -86,7 +86,7 @@ export default function Hero() {
 
           {/* Right side - Profile Image */}
           <div className="flex justify-center">
-            <div className="relative w-72 h-80 rounded-2xl overflow-hidden border-4 border-blue-400/30 shadow-2xl shadow-blue-500/20 hover:shadow-blue-500/40 transition-shadow duration-300">
+            <div className="relative w-96 h-[28rem] rounded-2xl overflow-hidden border-4 border-blue-400/30 shadow-2xl shadow-blue-500/20 hover:shadow-blue-500/40 transition-shadow duration-300">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 z-10"></div>
               <Image 
                 src="/profile.jpeg" 

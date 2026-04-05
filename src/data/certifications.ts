@@ -13,4 +13,10 @@ export const certifications: Certification[] = [
     year: "2025",
     url: "https://archive.nptel.ac.in/content/noc/NOC25/SEM2/Ecertificates/106/noc25-cs81/Course/NPTEL25CS81S35990024810436383.pdf",
   },
+  {
+    title: "TCS NQT IT",
+    issuer: "TCS-ION",
+    year: "2025",
+    url: "/tcs-nqt-it.pdf",
+  },
 ];

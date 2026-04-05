@@ -46,6 +46,11 @@ export default function About() {
       title: 'Data Structure and Algorithm',
       issuer: 'NPTEL',
       url: 'https://archive.nptel.ac.in/content/noc/NOC25/SEM2/Ecertificates/106/noc25-cs81/Course/NPTEL25CS81S35990024810436383.pdf'
+    },
+    {
+      title: 'TCS NQT IT',
+      issuer: 'TCS-ION',
+      url: '/tcs-nqt-it.pdf'
     }
   ];
 
@@ -54,7 +59,8 @@ export default function About() {
       <div className="grid md:grid-cols-2 gap-12 items-start">
         {/* Left side - Profile Image */}
         <div className="flex justify-center">
-          <div className="relative w-80 h-96 rounded-2xl overflow-hidden border-4 border-gray-800 shadow-lg">
+          <div className="relative w-96 h-[36rem] rounded-2xl overflow-hidden border-4 border-blue-400/30 shadow-2xl shadow-blue-500/20 hover:shadow-blue-500/40 transition-shadow duration-300">
+            <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 z-10"></div>
             <Image
               src="/about-profile.jpeg"
               alt="Awaneesh Chaturvedi"
